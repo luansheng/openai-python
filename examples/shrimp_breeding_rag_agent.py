@@ -106,6 +106,11 @@ _PROVIDERS: dict[str, dict[str, str]] = {
         "api_key_env": "YI_API_KEY",
         "model": "yi-large",
     },
+    "openrouter": {
+        "base_url": "https://openrouter.ai/api/v1",
+        "api_key_env": "OPENROUTER_API_KEY",
+        "model": "deepseek/deepseek-chat",
+    },
 }
 
 
